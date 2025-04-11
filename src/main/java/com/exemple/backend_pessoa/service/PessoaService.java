@@ -8,12 +8,8 @@ import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
-
 import com.exemple.backend_pessoa.dto.PessoaDTO;
 import com.exemple.backend_pessoa.mapper.PessoaMapper;
 import com.exemple.backend_pessoa.model.Pessoa;
